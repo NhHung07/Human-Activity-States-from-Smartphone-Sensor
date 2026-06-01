@@ -110,6 +110,7 @@ Sau khi lựa chọn Logistic Regression, chúng ta tiến hành phân tích sâ
     - **Nhận xét**: Từ ma trận nhầm lẫn, ta thấy rõ sự nhầm lẫn lớn nhất xảy ra giữa hai lớp `SITTING` (thực tế) và `STANDING` (dự đoán), và ngược lại. Cụ thể, có tổng cộng 109 trường hợp `SITTING` và `STANDING` bị dự đoán nhầm lần với nhau. Điều này là hợp lý về mặt logic vì cả hai đều là các hoạt động tĩnh, các tín hiệu cảm biến có thể tương tự nhau khi người dùng không di chuyển.
 
     ![Confusion Matrix](/img/image-3.png)
+    
     *Hình 3: Ma trận nhầm lẫn của mô hình Logistic Regression trên tập kiểm thử.*
 
 -   **Brier Score**:
