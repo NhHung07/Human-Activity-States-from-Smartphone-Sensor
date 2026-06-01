@@ -9,9 +9,9 @@ from sklearn.preprocessing import LabelEncoder
 
 APP_TITLE = "Activity State Demo"
 TRAIN_PATH = "./data/train.csv"
-SCALER_PATH = "scaler.pkl"
-SELECTOR_PATH = "selector.pkl"
-MODEL_PATH = "lr_model.pkl"
+SCALER_PATH = "./model/scaler.pkl"
+SELECTOR_PATH = "./model/selector.pkl"
+MODEL_PATH = "./model/lr_model.pkl"
 
 @st.cache_resource
 def load_artifacts():
